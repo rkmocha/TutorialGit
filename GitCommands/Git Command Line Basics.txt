@@ -1,0 +1,118 @@
+Reference: https://youtu.be/HVsySz-h9r4
+https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=1
+
+https://git-scm.com
+
+git --version
+
+git config --global user.name "User Name"
+git config --global user.email "email@gmail.com"
+
+git config --list
+
+git help <verb>
+git <verb> --help
+
+ls -la [will display the .git directory]
+
+LOCAL CODE BASE
+----------------------------------------
+Initialised git project
+git init
+
+To remove git project. This will delete the .git directory
+rm -f .git
+
+Before first commit
+git status
+
+To add file to Staging
+git add filename
+
+To add all files
+git add -A
+
+Remove file from staging
+git reset filename
+
+Remove all files from staging
+git reset
+
+Commit all files steps
+git add -A
+git commit -m "Initial commit"
+
+$ git log
+commit 4cec410b6c77233c2f24f408b4a9bd827ee542ad
+Author: UserName <email@gmail.com>
+Date:   Thu Mar 22 10:01:51 2018 -0400
+
+    Initial commit
+
+	
+CLONING A REMOTE REPO
+------------------------------------------------
+git clone <url> <where to clone>
+
+$ ls
+Clone-Repo/  gitrepomocha01/  repomocha01/  repomocha03/  test.txt
+
+$ cd Clone-Repo/
+
+$ git clone ../gitrepomocha01 .
+Cloning into '.'...
+done.
+
+
+git remote -v
+git branch -a
+
+REMOTE REPO Checkin steps
+Change the file locally and commit
+git diff
+git status
+git add -A
+git commit -m "Git Commands"
+
+THEN PUSH - Commit the changes to remote
+git pull origin master
+git push origin master
+
+
+COMMON WORKFLOW
+CREATE BRANCH FOR DESIRE FEATURE
+git branch <branch name> // Create branch
+git checkout <branch name> // To start working on branch
+
+MERGE A BRANCH TO MASTER
+git checkout master
+git pull origin master
+git branch --merged
+git merge <branch name>
+git push origin master
+
+TO VERIFY SUCCESSFUL MERGE
+git branch --merged
+<Branch01>
+* master
+This confirm that Branch01 is merged to master
+
+DELETING A BRANCH
+git branch --merged
+git branch -d <branch name> // delete local branch
+git branch -a
+git push origin --delete <branch name> // delete remote branch
+
+FASTER EXAMPLE
+git branch BranchName
+git checkout BranchName
+Make the change and save
+git status
+git add -A
+git commit -m "Subtract comment"
+git push -u origin BranchName
+git checkout master
+git pull origin master
+git merge BranchName
+git push origin master
+Then we can delete the BranchName branch
