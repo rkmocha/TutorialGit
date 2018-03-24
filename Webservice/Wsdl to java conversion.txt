@@ -1,0 +1,6 @@
+Wsdl to java conversion
+
+wsdl2java -ant -impl -server -d D:\tmp helloworld.wsdl
+wsdl2java -ant -impl -client -d D:\tmp helloworld.wsdl
+wsdl2java -ant -impl -client -server -d D:\tmp helloworld.wsdl
+wsdl2java -ant -d D:\tmp helloworld.wsdl

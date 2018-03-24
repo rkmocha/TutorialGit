@@ -1,0 +1,31 @@
+Downloadable Tools
+
+Everything Search
+http://www.voidtools.com/
+
+File Splitter
+http://www.hjsplit.org/
+
+SSH client – MobaXterm
+http://mobaxterm.mobatek.net/download.html
+
+SSH client – mRemoteNG
+https://mremoteng.org/download
+
+Windows file manager
+http://freecommander.com/en/downloads
+
+BareGrep – file finding and text searching tool
+https://www.baremetalsoft.com/baregrep/
+
+prntscr – Snipping Tool Alternative
+https://app.prntscr.com/en/index.html
+
+Share one mouse and keyboard between multiple computers (Not Free)
+https://symless.com/synergy
+
+Java Decompiler for Eclipse
+http://jd.benow.ca/
+
+Bookmark plugin for eclipse
+https://github.com/hanks/Bookmark-plugin-for-eclipse

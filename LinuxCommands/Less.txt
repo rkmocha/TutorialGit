@@ -1,0 +1,40 @@
+less
+How to use less
+
+Move     
+
+	f Next Page
+
+	b Previous Page
+
+	 j Forward one line
+
+	k Backward one line
+
+Jump
+
+	g First Line
+
+	G Last Line
+
+	<n>G Line <n>
+
+Search
+
+	&pattern Display only matching lines
+
+	/<text> Forward Search for <text>. Text is interpreted as a regex.
+
+	?<text> Backward Search like
+
+	/ n Next Search Match
+
+	N Previous Search Match
+
+Misc
+
+	-<c> Toggle option <c>, e.g.,
+
+	-i toggles option to match case in searches
+
+	h Help. This is presented with less, q to quit. q Quit

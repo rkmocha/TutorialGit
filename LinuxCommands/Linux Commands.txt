@@ -1,0 +1,43 @@
+Linux Commands
+vi filename
+vi -R filename
+view filename
+
+without saving is :q!
+save the contents of the editor is :w
+save and exit  :wq or ZZ
+
+cc – delete line
+yy – copy line
+p – paste
+
+switch to root user: sudo -i
+tar -zxvf filename.tar.gz
+/opt/programs/jdk1.8.0_73
+/opt/programs/apache-tomcat-9.0.0.M1
+
+export JAVA_HOME=jdk-install-dir
+export PATH=$JAVA_HOME/bin:$PATH
+
+Start tomcat
+$ sh startup.sh
+or
+$ ./startup.sh
+Log watching using tail or less
+The command tail -f will display the last 10 lines of a file, and then continuously wait for new lines, and display them as they appear.
+$ tail -f /var/log/messages
+
+If you want to see more than ten lines at the outset, specify the new number (say 50 lines) like this:
+$ tail -50   -f /var/log/messages
+
+The tail command is fast and simple. But if you want more than just following a file (e.g., scrolling and searching), then less may be the command for you.
+$ less /var/log/messages
+
+Press Shift-F. This will take you to the end of the file, and continuously display new contents. In other words, it behaves just like tail -f.
+
+To start less in the tail mode (thanks to Seth Milliken for this tip), execute:
+$ less +F /var/log/messages
+
+http://winscp.net/
+mRemoteNG
+putty

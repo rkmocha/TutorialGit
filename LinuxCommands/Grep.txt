@@ -1,0 +1,27 @@
+grep
+Ref: https://unix.stackexchange.com/questions/21033/how-can-i-grep-the-results-of-find-using-exec-and-still-output-to-a-file
+1) find and grep together
+find . -name '*.py' -print0 | xargs -0 grep 'something' > output.txt
+Find all files with extension py, grep only rows that contain something and save the rows in output.txt
+
+2) grep command
+-n returns line number.
+
+-i is for ignore-case. Only to be used if case matching is not necessary
+
+$ grep -in null myfile.txt
+
+2:example two null,
+4:example four null,
+
+
+Search recursively from .java files
+grep -r –include “*.java” TEXT_TO_SEARCH D:/Projects/Dir
+
+Search recursively from all file extension
+grep TEXT_TO_SEARCH -r D:/Projects/Dir/*
+
+Search from archive file
+find dir/ -name "*.Z" | xargs zcat | grep TEXT
+find dir/ -name "*2017091[234]*.Z"
+find dir/ -name "*20170[9]*.Z" | xargs zcat | grep TEXT
