@@ -6,3 +6,6 @@ https://memorynotfound.com/
 
 HP UFT / QTP Online Training (UTP 12.5)
 https://www.tutorialspoint.com/hp_uft_qtp_online_training/index.asp
+
+Merge Tool
+http://kdiff3.sourceforge.net/
