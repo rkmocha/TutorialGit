@@ -12,3 +12,5 @@ http://kdiff3.sourceforge.net/
 
 PUTTYGEN - KEY GENERATOR FOR PUTTY ON WINDOWS
 https://www.ssh.com/ssh/putty/windows/puttygen
+
+https://www.geeksforgeeks.org/circular-array/
