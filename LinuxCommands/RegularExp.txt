@@ -1,0 +1,11 @@
+https://regex101.com/
+
+
+Inserting \(id = null\)			-> Search 'Inserting (id = null)'
+Inserting \(id = ([0-9]+)\)		-> Inserting (id = 123)
+[0-9]+							-> 123 (any number)
+
+Inserting (id = null): date
+Inserting (id = null): date
+Inserting (id = 123): date
+Inserting (id = null): date
