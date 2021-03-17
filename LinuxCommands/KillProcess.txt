@@ -1,0 +1,2 @@
+ps -ef | grep -i <SearchProcess>
+kill -9 <Enter Process No. (second column from previous command)>
