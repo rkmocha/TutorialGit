@@ -14,3 +14,11 @@ PUTTYGEN - KEY GENERATOR FOR PUTTY ON WINDOWS
 https://www.ssh.com/ssh/putty/windows/puttygen
 
 https://www.geeksforgeeks.org/circular-array/
+
+ComboPooledDataSource Example
+https://www.netjstech.com/2018/01/connection-pooling-using-c3p0-in-java.html
+https://www.netjstech.com/2018/08/connection-pooling-using-c3p0-spring-example.html
+https://www.mchange.com/projects/c3p0/
+
+https://java2blog.com/java-executorcompletionservice-example/
+https://java2blog.com/java-executorservice-example-using-callable-future/
