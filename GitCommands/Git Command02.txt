@@ -59,3 +59,20 @@ Reverting only single commit
 
 
 git commit --amend
+
+Stash:
+git checkout temp
+make some change in temp branch
+Current branch temp>git stash
+ls .git/refs/stash
+cat .git/refs/stash
+Check contents of git object
+git cat-file -p <CommitId>
+git cat-file -t <CommitId>
+git checkout dev
+git checkout temp
+Current branch temp>git stash pop
+
+Get changes from main to current repo:
+git fetch origin
+git merge origin/main
