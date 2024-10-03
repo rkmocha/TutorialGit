@@ -1,0 +1,61 @@
+
+
+Notepad++ Shortcuts:
+Duplicate line: Ctrl + D
+Copy line: Ctrl + C 
+Delete line: Ctrl + L
+
+https://www.youtube.com/watch?v=3tMOTN7TXf8&list=PLWkguCWKqN9N9mvHWFAXqSMStslkILiP0&index=1
+
+git log
+git log --oneline
+git lg
+git log --graphh
+git log --graphh --oneline
+git log --stat
+git log -p
+git log -4
+git log -4 --oneline
+
+
+git shortlog
+git shortlog -n
+git shortlog -n -s 
+git shortlog -n -s -e 
+
+
+git log --author="James"
+git log --author="Jam"
+git log --author="Jam" --oneline
+git log --grep="word" 
+
+
+
+git log --pretty=format:"%cn %H"
+git log --pretty=format:"%cn %h"
+git log --pretty=format:"Author of commit:%cn %h"
+git log --pretty=format:"Author of commit:%cn; Commit Id: %h"
+git log --pretty=format:"Author of commit:%cn; Commit Id: %h; Commit Date: %cd"
+
+Merge commit - 
+git log --merges
+git log --no-merges
+
+
+Advance command should practice on private repo:
+Git Reset (modify history)
+- Reset performed only in in the local repository.
+types
+soft - discard commit and add files in stage
+mixed - discard commit and add files in un stage (this )
+hard - discard commit and files 
+
+git reset --soft <commit>
+git reset --mixed <commit> this is the default
+git reset --hard <commit>
+
+Git Revert: (does not modify history)
+Reverting only single commit
+
+
+git commit --amend
