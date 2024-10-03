@@ -22,3 +22,10 @@ https://www.mchange.com/projects/c3p0/
 
 https://java2blog.com/java-executorcompletionservice-example/
 https://java2blog.com/java-executorservice-example-using-callable-future/
+
+
+eazybytes/eazybytes-config
+	https://github.com/eazybytes/eazybytes-config/tree/main
+	
+eazybytes/microservices - Docker, kubectl and helm commands
+	https://github.com/eazybytes/microservices
