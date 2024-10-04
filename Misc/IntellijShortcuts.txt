@@ -1,0 +1,34 @@
+Intellij Shortcut
+Ctrl + F9 - Build
+Shift + F10/F9 Run/Debug
+Ctrl + N - Go to Class
+Ctrl + Alt + S - Settings
+Ctrl + F12 - (*Quick outline, Ctrl+O, File structure)
+Alt+V - to add VM arguments
+Ctrl + F12 - Eclipse Outline 
+IntelliJ IDEA (Ctrl+Shift+F) - Eclipse Ctrl + H
+Ctrl+Shift+T - to create Junit test
+Alt + Ctrl + B - Go to implementation
+Ctrl + U - Super Class
+Ctrl + / , Ctrl + Sft + / - Comment
+
+Top 15 IntelliJ IDEA shortcuts
+https://www.youtube.com/watch?v=QYO5_riePOQ
+Alt+Enter - Show Intention Actions
+F2 - Next Highlighted Error
+⌘1 or Alt+1 - Project Tool Window
+Esc - Focus on the Editor
+⌘E or Ctrl+E - View Recent Files
+⌘B or Ctrl+B - Go to Declaration
+Alt+F7 - Find Usages
+Ctrl Ctrl - Run Anything
+⌥↑ / ⌥↓ or Ctrl + W / Shift + Ctrl + W - Extend or Shrink Selection
+⌘/ or Ctrl + / - Add/Remove Line Comment (⌥⌘/ or Shift+Ctrl+/ for Block Comment)
+⇧⌘⏎ or Shift+Ctrl+Enter - Complete Current Statement
+⌥⌘L or Ctrl+Alt+L - Reformat Code
+⌃T or Shift+Ctrl+Alt+T - Refactor This
+⇧⌘A or Shift+Ctrl+A - Find Action
+Shift Shift - Search Everywhere
+
+
+One Commander to show hidden file /folder : Ctrl + H
