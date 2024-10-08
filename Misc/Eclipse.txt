@@ -1,0 +1,7 @@
+
+To change font size and theme:
+Windows Preference:
+1) Tree and Table font for views
+2) Dialog Font
+3) Ctrl+/- for increate/decrease font size
+4) Window > Preferences > Theme
