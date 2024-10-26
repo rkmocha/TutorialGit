@@ -1,0 +1,6 @@
+
+DBeaver 
+- MySql db connection
+jdbc:mysql://localhost:3306/university?allowPublicKeyRetrieval=true&useSSL=false
+- Font increase
+Window -> Preferences –> User Interface —> Appearance —> Color and fonts
