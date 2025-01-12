@@ -29,3 +29,6 @@ eazybytes/eazybytes-config
 	
 eazybytes/microservices - Docker, kubectl and helm commands
 	https://github.com/eazybytes/microservices
+
+Sybase SQL Anywhere to SQL Server Migration
+	https://www.sqlines.com/sybase-asa-to-sql-server#select-statement
