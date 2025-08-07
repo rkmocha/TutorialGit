@@ -1,0 +1,14 @@
+Compare File/Folder
+
+Gitbash
+diff -rq /D/WS/Compare_WS/folder1 /D/WS/Compare_WS/folder2
+
+Windows CMD - display difference if the files are different otherwise 'FC: no differences encountered'
+fc D:\WS\Compare_WS\test2.txt D:\WS\Compare_WS\test3.txt
+FC: no differences encountered
+
+PowerShell
+Compare-Object (Get-Content D:\WS\Compare_WS\test2.txt) (Get-Content D:\WS\Compare_WS\test3.txt)
+
+vs code comparison
+code --diff D:\WS\Compare_WS\test1.txt D:\WS\Compare_WS\test2.txt
